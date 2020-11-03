@@ -57,8 +57,10 @@ h2 {
 }
 
 #headline {
-    background: url("./Scientist-Jamal-Nazrul-Islam-4.jpg") center;
+    background: url("./Scientist-Jamal-Nazrul-Islam-4.jpg");
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     height: 291px;
     width: auto;
     color: white;
