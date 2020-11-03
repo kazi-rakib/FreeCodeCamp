@@ -1,0 +1,114 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: monospace, Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+    text-align: center;
+    color: #333;
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+@media (min-width: 560px) {
+    body {
+        font-size: 1.8rem;
+    }
+}
+
+
+img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    height: auto;
+}
+
+#img-div {
+    background: white;
+    padding: 10px;
+    margin: 0;
+}
+#img-caption {
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    margin: 5px 0 10px 0;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 4.0rem;
+    margin-bottom: 0;
+}
+h2 {
+    font-size: 2.0rem;
+    margin-bottom: 0;
+}
+
+#main {
+    margin: 10px 5px;
+    padding: 15px;
+    border-radius: 5px;
+    background: #ddd;
+    /* background: linear-gradient(
+        to bottom, #eee, #ece
+    ); */
+}
+
+#headline {
+    background: url("https://cdn.statically.io/img/www.digitalworldhub.com/f=auto/wp-content/uploads/2018/03/Scientist-Jamal-Nazrul-Islam-4.jpg") center;
+    background-repeat: no-repeat;
+    height: 291px;
+    width: auto;
+    color: white;
+    text-align: center;
+    line-height: 25px;
+    margin: 50px auto 25px auto;
+    padding: 15px;
+    font-size: 2.8rem;
+}
+@media (min-width: 560px) {
+    #headline {
+        line-height: 70px;
+    }
+}
+
+ul {
+    max-width: 550px;
+    margin: 0 auto;
+    text-align: left;
+    line-height: 1.6;
+    list-style: none;
+}
+
+#tribute-info ul li {
+    margin: 16px 0;
+    box-shadow: 0 3px 3px #333;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+blockquote {
+    font-style: italic;
+    max-width: 545px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+}
+
+blockquote cite {
+    color: #808080;
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+    color: #477ca7;
+}
+figcaption a {
+    color: #333;
+}
+  
+a:visited {
+   color: #74418b;
+}
